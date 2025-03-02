@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.rainbowt0506.banking"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.rainbowt0506.banking"
@@ -66,4 +66,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0")
+    implementation("androidx.compose.material:material-icons-extended:1.5.4")
 }
